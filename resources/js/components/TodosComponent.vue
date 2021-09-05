@@ -77,7 +77,7 @@
                     .then(()=> {
                     alert('delete successful');
                     location.reload();
-                }).catch(err => alert(err));
+                }).catch(err => console.log(err));
             },
             EditModal(todo) {
                 $('#edit').modal('show');
